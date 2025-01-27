@@ -11,10 +11,25 @@
 </head>
 
 <body>
+
+<header>
+    <nav class="navigation">
+        <a href="#"><img src="./img/logo (1).png" alt="logo do iphone" class="logo"></a>
+        <ul>
+            <li><a href="#">Mac</a></li>
+            <li><a href="#">iPad</a></li>
+            <li><a href="#" class="check">iPhone</a></li>
+            <li><a href="#">Watch</a></li>
+            <li><a href="#">AirPods</a></li>
+            <li><a href="#">Só na Apple</a></li>
+            <li><a href="#">Suporte</a></li>
+        </ul>
+    </nav>
+</header>    
     <main>
-        <div class="circulo"></div>
+        <div class="circle"></div>
         <div class="div-principal">
-            <h2>iPhone 16</h2>
+            <img src="./img/iphone-16-logo-png_.png" alt="" class="logo-16">
             <h3>Tão poderoso.
                 Tão ao seu alcance.
             </h3>
@@ -26,15 +41,15 @@
             <h5>Escolha sua cor:</h5>
 
             <div class="conteudo">
-                <span id="azul"></span>
-                <span id="amarelo" ></span>
-                <span id="branco"></span>
-                <span id="preto"></span>
-                <span id="vermelho"></span>
-                <span id="roxo"></span>
+                <span id="azul" onclick="imgSlide('img-iphone'); circleChange('#455442')"></span>
+                <span id="amarelo" onclick="imgSlide('img/green.png'); circleChange('#445c42')"></span>
+                <span id="branco" onclick="imgSlide('img/green.png'); circleChange('#445c42')"></span>
+                <span id="preto" onclick="imgSlide('img/green.png'); circleChange('#445c42')"></span>
+                <span id="vermelho" onclick="imgSlide('img/green.png'); circleChange('#445c42')"></span>
+                <span id="roxo" onclick="imgSlide('img/green.png'); circleChange('#445c42')"></span>
             </div>
         </div>
-        <img src="./img/iphone-vemelho.png" class="img-iphone" alt="Imagem do iPhone" id="phone">
+        <img src="./img/iphone-preto.png" class="img-iphone" alt="Imagem do iPhone" id="phone">
     </main>
 </body>
 
