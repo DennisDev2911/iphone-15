@@ -41,16 +41,28 @@
             <h5>Escolha sua cor:</h5>
 
             <div class="conteudo">
-                <span id="azul" onclick="imgSlide('img-iphone'); circleChange('#455442')"></span>
-                <span id="amarelo" onclick="imgSlide('img/green.png'); circleChange('#445c42')"></span>
-                <span id="branco" onclick="imgSlide('img/green.png'); circleChange('#445c42')"></span>
-                <span id="preto" onclick="imgSlide('img/green.png'); circleChange('#445c42')"></span>
-                <span id="vermelho" onclick="imgSlide('img/green.png'); circleChange('#445c42')"></span>
-                <span id="roxo" onclick="imgSlide('img/green.png'); circleChange('#445c42')"></span>
+                <span id="azul" onclick="imgSlide('img/iphone-azul.png'); circleChange('#4169E1')"></span>
+                <span id="amarelo" onclick="imgSlide('img/iphone-amarelo.png'); circleChange('#FFFF00')"></span>
+                <span id="branco" onclick="imgSlide('img/iphone-branco.png'); circleChange('#F5FFFA')"></span>
+                <span id="preto" onclick="imgSlide('img/iphone-preto.png'); circleChange('#6a6772')"></span>
+                <span id="vermelho" onclick="imgSlide('img/iphone-vemelho.png'); circleChange('#FF0000')"></span>
+                <span id="roxo" onclick="imgSlide('img/iphone-roxo.png'); circleChange('#8A2BE2')"></span>
             </div>
         </div>
         <img src="./img/iphone-preto.png" class="img-iphone" alt="Imagem do iPhone" id="phone">
     </main>
+
+    <script type="text/javascript">
+        /*Função de mudar a cor do celular*/
+        function imgSlide(e){
+            document.querySelector('#phone').src = e;
+        }
+        /*Função de mudar a cor do circulo*/
+        function circleChange(color){
+            const circle = document.querySelector('.circle');
+            circle.style.background = color
+        }
+    </script>
 </body>
 
 </html>

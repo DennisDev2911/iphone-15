@@ -5,6 +5,14 @@
     font-family: sans-serif;
 }
 
+body {
+    background: #D3D3D3;
+}
+
+.conteudo {
+    box-shadow: #8888;
+}
+
 
 
 main {
@@ -139,7 +147,7 @@ header {
 }
 
 #roxo {
-    background-color: #EDE7F1;
+    background-color: #7c42a3;
 }
 
 .circle {
