@@ -7,6 +7,8 @@
 ## 💻 Projeto
 
 Este projeto é um tutorial que ensina a como criar um Landing Page **iPhone 15** ao usar _HTML_ e _CSS_.
+<br>
+<p><strong>Landing Page:</strong> É uma página web independente criada com o objetivo de levar visitantes a realizar uma ação específica, como preencher um formulário, fazer uma compra ou baixar um material.</p>
 
 ## 🚀 Tecnologias
 
